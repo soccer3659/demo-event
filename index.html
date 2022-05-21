@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" href="img/favicon.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="wrapper">
+        <a class="logo" href="#hero">WEB Conference</a>
+        <nav>
+          <button class="btn-menu">Menu</button>
+              <ul class="main-nav">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#news">News</a></li>
+                  <li><a href="#speakers">Speakers</a></li>
+                  <li><a href="#ticket">Ticket</a></li>
+              </ul>
+        </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+      <div class="wrapper">
+          <h1>WEB Conference</h1>
+          <p class="hero-date">2022. 5. 20. 14:00 - 16:00</p>
+          <p>Webサイト制作の勉強会、WEB Conference。 今回はCSSのアニメーションテクニックとデザインを中心に紹介します。 参加料金は無料！お気軽にご参加ください。</p>
+           
+      </div>
+  </section>
+  
+  <section id="about"> 
+    <div class="wrapper">
+          <h2>About</h2>
+          <p>WEB Conferenceとは、Webサイト制作を学びたい人たちが集まる勉強会です。 最新のWebサイト制作やデザイントレンドを紹介し、それらの知識について参加者でディスカッションします。 一人で勉強を続けるだけでなく、仲間と交流しながら楽しく学んでいきましょう。</p>
+          <img src="img/computer.jpg" alt="" width="800" height"30">
+    </div>
+  </section>
+ 
+  <section id="news">
+    <div class="wrapper">
+          <h2>News</h2>
+          <table class="news-table">
+            <tr>
+              <td class="news-date">2022年3月6日</td>
+              <td class="news-content">参加登録を開始しました</td>
+            </tr>
+            <tr>
+              <td class="news-date">2022年2月5日</td>
+              <td class="news-content">WCB Conferenceの発表者が決定しました</td>
+            </tr>
+            <tr>
+              <td class="news-date">2022年1月10日</td>
+              <td class="news-content">WEB ConferenceのWebサイトが新しくなりました</td>
+            </tr>
+            <tr>
+              <td class="news-date">2022年1月4日</td>
+              <td class="news-content">WEB Conferenceの開催が決定しました！</td>
+            </tr>
+            
+          </table>
+    </div>
+  </section>
+  
+  <section id="speakers"> 
+    <div class="wrapper">
+          <h2>Speakers</h2>
+          
+          <div class="speaker">
+            <img src="img/face.jpg">
+            <div class="name">
+              <h3>Risa</h3>
+              <p>カナダ・バンクーバーにあるWeb制作の学校を卒業。 ヨーロッパ中心の企業でWebデザイナーとして働きました。 現在は専門学校でWEB制作を指導しています。</p>
+            </div>
+          </div> 
+          
+          <div class="speaker">
+            <img src="img/face1.jpg">
+            <div class="name">
+              <h3>jonny</h3>
+              <p>株式会社Web Create代表。学生時代より独学でWebサイト制作を学び、日本で企業。 web制作技術獲得のための動画配信や、イベントの主催や登壇なども行っています。</p>
+            </div>
+          </div> 
+          
+    </div>
+  </section>
+  
+  <section id="ticket"> 
+    <div class="wrapper">
+          <h2>Ticket</h2>
+          <form class="ticket-form" action="#">
+            <label>Name</label>
+            <input class="form-element" type="text" placeholder="苗字 名前">
+            <label>Email</label>
+            <input class="form-element" type="email" placeholder="hello@example.com">
+            <input class="form-btn" type="submit" value="Join Now!">
+           </form>
+          </div>
+    </div>
+  </section>
+  
+  <script src="js/script.js"></script>
+</body>
+</html
